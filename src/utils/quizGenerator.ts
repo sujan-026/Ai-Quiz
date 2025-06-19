@@ -8,7 +8,7 @@ export type QuizQuestion = {
 };
 
 const together = new Together({
-  apiKey: "9961a879648a62e8418f43e2a70ce28046f652894e2924a1c1e5d030beafaf16"
+  apiKey: ""
 });
 
 export const generateQuizQuestions = async (
