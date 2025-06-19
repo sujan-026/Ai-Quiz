@@ -1,5 +1,3 @@
-// quizGenerator.ts
-
 import Together from "together-ai";
 
 export type QuizQuestion = {
@@ -10,7 +8,7 @@ export type QuizQuestion = {
 };
 
 const together = new Together({
-  apiKey: "7d0f4ad5492d256a83b9528818a5079c7d3e39ba7fa2d2024326410adaeae353"
+  apiKey: "9961a879648a62e8418f43e2a70ce28046f652894e2924a1c1e5d030beafaf16"
 });
 
 export const generateQuizQuestions = async (
